@@ -9,7 +9,7 @@ st.markdown("""
 use this simple tool to check the strength of your password and get suggestions on how to make it stronger.
             we will give you helpful tips to create a **Strong Password** 🔒""")
 
-password = st.text_input("Enter your password", type="password")
+password =st.text_input("Enter your password", type="password")
 
 feedback = []
 
